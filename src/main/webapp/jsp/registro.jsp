@@ -1,8 +1,3 @@
-<%-- 
-    Document   : registro
-    Created on : 23/05/2021, 05:53:05 PM
-    Author     : Notes
---%>
 
 <%@page contentType="text/html"%>
 <%@page pageEncoding="UTF-8"%>
