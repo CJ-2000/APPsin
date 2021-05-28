@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ServletValidaUsuario</servlet-name>
+        <servlet-class>com.udep.sin2021.appsin.controllers.ServletValidaUsuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletUploadDocumento</servlet-name>
+        <servlet-class>com.udep.sin2021.appsin.controllers.ServletUploadDocumento</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletDownloadDocumento</servlet-name>
+        <servlet-class>com.udep.sin2021.appsin.controllers.ServletDownloadDocumento</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletCerrarSesion</servlet-name>
+        <servlet-class>com.udep.sin2021.appsin.controllers.ServletCerrarSesion</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletValidaUsuario</servlet-name>
+        <url-pattern>/ServletValidaUsuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletUploadDocumento</servlet-name>
+        <url-pattern>/ServletUploadDocumento</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletDownloadDocumento</servlet-name>
+        <url-pattern>/ServletDownloadDocumento</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletCerrarSesion</servlet-name>
+        <url-pattern>/ServletCerrarSesion</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
