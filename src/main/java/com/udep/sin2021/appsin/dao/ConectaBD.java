@@ -10,10 +10,10 @@ import java.sql.SQLException;
 public class ConectaBD {
     public static Connection initializeDatabase()
         throws SQLException,ClassNotFoundException {         
-        String host = "localhost";
+        String host = "appweb2021-mysqldbserver.mysql.database.azure.com";
         String puerto = "3306";
-        String usuario = "root";
-        String password = "";
+        String usuario = "mysqldbuser@appweb2021-mysqldbserver";
+        String password = "2021SIN!";
         String bd = "sistema";
         String url = "jdbc:mysql://" + host + ":"+puerto+"/"+ bd +"?user=" + usuario + "&password=" + password;
 

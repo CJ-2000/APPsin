@@ -56,8 +56,8 @@
 
         <h3>Todos los documentos</h3>
         <sql:setDataSource var = "snapshot" driver = "org.mariadb.jdbc.Driver"
-        url = "jdbc:mysql://localhost:3306/sistema"
-        user = "root" password = ""/>
+        url = "jdbc:mysql://appweb2021-mysqldbserver.mysql.database.azure.com:3306/sistema"
+        user = "mysqldbuser@appweb2021-mysqldbserver" password = "2021SIN!"/>
         
         <sql:query dataSource = "${snapshot}" var = "result">
            SELECT *,datediff(CURDATE(),Fecha) as seguimiento  FROM documento ORDER BY Fecha DESC; 
