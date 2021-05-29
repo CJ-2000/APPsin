@@ -1,4 +1,4 @@
-/* Capa controllers:*/
+/* Capa bean:*/
 // Lleva y trae información, sin otra lógica*/
 //Atributos privados no pueden modificarse directamente, se debe usar métodos accesores como Refactor - Encapsulate Fields
 
