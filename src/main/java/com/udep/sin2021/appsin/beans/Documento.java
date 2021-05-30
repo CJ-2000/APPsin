@@ -1,7 +1,8 @@
 /* Capa bean:*/
 // Lleva y trae información, sin otra lógica*/
+//PIERINA HOLAAAAAAAAAAAAAAAA
 //Atributos privados no pueden modificarse directamente, se debe usar métodos accesores como Refactor - Encapsulate Fields
-
+//holi
 package com.udep.sin2021.appsin.beans;
 
 public class Documento {
