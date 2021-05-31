@@ -3,6 +3,7 @@
 //PIERINA HOLAAAAAAAAAAAAAAAA
 //Atributos privados no pueden modificarse directamente, se debe usar métodos accesores como Refactor - Encapsulate Fields
 //holi
+// Alex gei
 package com.udep.sin2021.appsin.beans;
 
 public class Documento {
